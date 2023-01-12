@@ -1,18 +1,19 @@
 * {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
 }
 
 body {
   background-image: url("draft.jpg");
   background-repeat: no-repeat, repeat;
-  background-size: cover;  
+  background-size: cover;
+
 }
 
 h3 {
-    font-weight : bold;
-    font-size: 1.8em;
-    color: blue;
+  font-weight: bold;
+  font-size: 1.8em;
+  color: blue;
 }
 
 .title {
@@ -20,12 +21,15 @@ h3 {
   text-align: left;
   padding: .2em 1em;
   margin: 2em 0;
+  border-radius: 20px;
+  box-shadow: -5px 10px #081472;
+  border: 5px solid rgb(38, 38, 95);
 }
 
 body {
   width: 80%;
   margin: auto;
-  background-color:aliceblue;
+  background-color: aliceblue;
 }
 
 .pictures {
@@ -35,6 +39,9 @@ body {
   justify-content: space-between;
   margin: auto;
   background-color: white;
+  border: 5px solid rgb(38, 38, 95);
+  border-radius: 20px;
+  box-shadow: -5px 10px #081472;
 }
 
 .info {
@@ -46,8 +53,8 @@ body {
 }
 
 .weaver {
-    padding: 1.1em;
-    width: 33%;
+  padding: 1.1em;
+  width: 33%;
 }
 
 .link {
@@ -56,3 +63,16 @@ body {
   font-size: 1.3em;
 }
 
+footer {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  width: 40%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 1.2em;
+  border-radius: 20px;
+  box-shadow: -5px 10px #081472;
+
+}
