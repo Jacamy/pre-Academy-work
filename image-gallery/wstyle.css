@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: hsla(42, 88%, 37%, 0.2);
+  font-family: "Arial";
+}
+
+.container {
+  width: 100%;
+  min-height: 20em;
+  background: #fff;
+  margin: 5em auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 90%;  
+    padding: .3em; 
+    }
+  }
+
+.container .box {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
+  box-sizing: border-box;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 600px) {
+  .container .box {
+    width: 25%;  
+    padding: .6em;
+    margin-bottom: 0;
+    }
+  }
+
+.container .box .img__box {
+  position: relative;
+  overflow: hidden;
+}
+
+.container .box .img__box img {
+  max-width: 100%;
+  transition-delay: .5s;
+}
+
+.container .box:hover .img__box img {
+  transform: scale(1.2);
+}
+
+.container .box .details {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.7);
+  transform: scaleY(0);
+  transition-delay: .5s;
+}
+
+.container .box:hover .details {
+  transform: scaleY(1);
+}
+
+.container .box .details .content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+}
+
+.container .box .details .content h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  color: orange;
+}
+
+.container .box .details .content p {
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.hello {
+  font-size: 80px;
+  background: white;
+  color: orange;
+}

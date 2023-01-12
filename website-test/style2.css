@@ -1,0 +1,64 @@
+* {
+  max-wdith: 840px;
+  font-family: garamond;
+}
+
+.pic {
+  background-image: url(1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 400px;
+}
+
+.container {
+  display: grid;
+  width: 840px;
+  height: 500px
+  grid-template-columns: 320px 300px 300px;
+  grid-template-rows: 100px 140px 5px 40px 5px 40px 5px 40px 40px;
+  grid-template-areas:
+    "top top top"
+    "title space space"
+    "name spare spare"
+    "add free free";
+  background-size: cover;
+  background-attachment: fixed;
+  border: 2px solid teal;
+}
+
+p {
+  font-size: 20px;
+  color: orange;
+  width: 300px;
+}
+
+.pic {
+  background-image: url("https://jacdoesjavascript.files.wordpress.com/2022/02/img_20220209_102839__01__01.jpg");
+}
+
+
+.title {
+  grid-column: 1 / span 3;
+  grid-row: 2;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: orange;
+  max-width: 840px;
+  }
+
+.name {
+  grid-colum: 1;
+  grid-row: 4;
+}
+
+.mail {
+  grid-colum: 1;
+  grid-row: 6;
+}
+
+.add {
+  grid-colum: 1;
+  grid-row: 8;
+}

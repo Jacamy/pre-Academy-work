@@ -1,0 +1,102 @@
+* {
+  max-width: 840px;
+  font-family: garamond;
+}
+
+header {
+  background-image: url("https://jacdoesjavascript.files.wordpress.com/2022/02/img_20220209_102839__01__01.jpg");
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+}
+
+.top {
+  color: black;
+  background-color: orange;
+  padding: 10px;
+  text-align: left;
+}
+
+body {
+  background: rgb(10,154,154);
+  background: linear-gradient(0deg, rgba(10,154,154,0.6421919109440651) 0%, rgba(235,118,12,0.08757006220456931) 45%, rgba(253,187,45,0.14359247116815477) 100%);
+}
+
+.container {
+  display: grid;
+  width: 840px;
+  grid-template-columns: 1fr 3fr 1fr 3fr;
+  grid-template-rows: 30px 2px 30px 2px 30px;
+}
+
+.test {
+  font-size: 18px;
+  color: blue;
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row-end: 3;
+  grid-column-end: 5;
+}
+
+.cform {
+  display: grid;
+}
+
+.cname {
+  font-weight: bold;
+  grid-area: 4 / 3 / 5 / span 2;
+  color: pink;
+}
+
+.cmail {
+  display: grid;
+  font-weight: bold;
+  grid-area: 4 / 3 / 3 / 5;
+}
+
+.name {
+  font-weight: bold;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.jname {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.mail {
+  font-weight: bold;
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.jmail {
+grid-area: 3 / 2 / 4 / 3;
+}
+
+.add {
+  font-weight: bold;
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+.jadd {
+  grid-area: 5 / 2 / 6 / 3;
+}
+
+p {
+  font-size: 20px;
+}
+
+h2 {
+  color: blue;
+}
+
+
+
+.logo {
+  padding: 30px;
+  margin: 0;
+}

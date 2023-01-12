@@ -1,0 +1,13 @@
+p {
+  font-family: arial;
+  font-size: 26px;
+  color: blue
+}
+
+
+.pic {
+  background-image: url("https://jacdoesjavascript.files.wordpress.com/2022/02/img_20220209_102839__01__01.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}

@@ -1,0 +1,73 @@
+
+.container {
+      max-width: 840px;
+      margin: 0 auto;
+    }
+
+* {
+  font-family: helvetica;
+}
+
+h1 {
+  color: blue;
+  background-color: rgb(127, 189, 245);
+  font-size: 50px;
+  text-align: center;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+#great {
+  color: rgb(30, 32, 131);
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+.intro {
+  background-color: rgb(218, 254, 252);
+  padding: 40px;
+  font-size: 26px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 840px;
+  color: green;
+  font-weight: bold;
+}
+
+.reasons {
+  max-width: 840px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 20px;
+}
+#list-name li {
+  font-size: 30px;
+}
+
+.rectangle {
+  display: inline-block;
+  width: 230px;
+  height: 100px;
+  background-color: rgb(218, 220, 235);
+  text-align: center;
+  font-size: 40px;
+  color: blue;
+  font-weight: bold;
+  padding: 40px 20px 0px 20px;
+  margin: 0 auto;
+  border: solid black medium;
+}
+
+h3 {
+  color: maroon;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+footer {
+  max-width: 840px;
+  font-size: 15px;
+  border-top: 5px dotted red;
+  text-align: center;
+  margin: 0 auto;
+}
